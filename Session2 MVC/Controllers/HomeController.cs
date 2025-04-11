@@ -11,7 +11,7 @@ namespace Session2_MVC.Controllers
             //3rd overload return View("Omar"); return view with the same name as theprovided name
             //4th overload return View("Omar", new Movie()); 
         }
-        public IActionResult Privacy()
+        public IActionResult Privacy(int id, string name)
         {
             return View();
             
