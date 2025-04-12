@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo.DataAccess.Models
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
         public int ID { get; set; } //PK
         public int CreatedBy { get; set; }
